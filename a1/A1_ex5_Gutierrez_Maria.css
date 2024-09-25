@@ -1,0 +1,55 @@
+body {
+    background: #fff url('images/gradbg.jpg') top left repeat-x;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+}
+
+div {
+    width: 1230px; /* Ajusta la pàgina */
+    margin: 0 auto;
+}
+
+#bggraphic {
+    height: 278px;
+    width: 362px;
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.8em; /* Mida de la lletra augmentada */
+    margin-bottom: 30px;
+    background: url('images/headbg.png') top left repeat;
+    padding: 10px 0;
+    color: red; /* Color del text ajustat a vermell */
+    font-weight: bold; /* Text ajustat al màxim gruix */
+}
+
+.subheader {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em; /* Mida de la lletra reduida */
+    margin-bottom: 30px;
+    color: orange; /* Color del text ajustat a taronja */
+    font-weight: bold; /* Text ajustat al màxim gruix */
+}
+
+#references cite {
+    margin: 1em 0 0 3em;
+    text-indent: -3em;
+    display: block;
+    font-style: normal;
+    padding-right: 3px;
+}
+
+.book {
+    color: grey; /* Color del text gris */
+    font-style: italic; /* Lletra en cursiva */
+}

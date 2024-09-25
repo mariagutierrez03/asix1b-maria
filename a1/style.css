@@ -1,0 +1,69 @@
+body{
+  background: #fff url('images/gradbg.jpg') top left repeat-x;
+  color: #000;
+  margin: 0;
+  padding:0;
+  border: 0;
+  font-family: Verdana, Arial, sans-serif; font-size: 1em;
+}
+div {
+  width: 700px; /* Ajusta la pàgina */
+  margin: 0 auto;
+}
+#bggraphic {
+  background: url('images/pen.png') top left no-repeat;
+  height: 278px;
+  width: 362px;
+  position: absolute;
+  left: 50%;
+  z-index: 100;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.8em; /* Mida de la lletra augmentada */
+  margin-bottom: 30px;
+  background: url('images/headbg.png') top left repeat;
+  padding: 10px 0;
+  color: red; /* Color del text ajustat a vermell */
+  font-weight: bold; /* Text ajustat al màxim gruix */
+}
+#references cite {
+  margin: 1em 0 0 3em;
+  text-indent: -3em;
+  display: block;
+  font-style: normal;
+  padding-right: 3px;
+}
+.website {
+  border-right: 5px solid blue;
+  background-image: url('./images/web.png'); /* Afegeix la imatge */
+  background-position: right; /* Posiciona la imatge a la dreta */
+  background-repeat: no-repeat; /* Evita que la imatge es repeteixi */
+}
+.book {
+  border-right: 5px solid red;
+  color: red; /* Color del text vermell */
+  background-image: url('./images/llibres.png'); /* Afegeix la imatge */
+  background-position: right; /* Posiciona la imatge a la dreta */
+  background-repeat: no-repeat; /* Evita que la imatge es repeteixi */
+}
+.article {
+  border-right: 5px solid green;
+  background-image: url('./images/articles.png'); /* Afegeix la imatge */
+  background-position: right; /* Posiciona la imatge a la dreta */
+  background-repeat: no-repeat; /* Evita que la imatge es repeteixi */
+}
+#footer {
+  font-size: 0.5em;
+  border-top: 1px solid #000;
+  margin-top: 20px;
+  display: none; /* Amaga el peu de pàgina */
+}
+#footer a {
+  color: #000;
+  text-decoration: none;
+}
+#footer a:hover{
+  text-decoration: underline;
+}
