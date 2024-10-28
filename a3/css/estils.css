@@ -1,0 +1,203 @@
+/* Estableix l'altura del html i body al 100% */
+html, body {
+    height: 100%; /* Altura total */
+    margin: 0; /* Sense marges */
+    padding: 0.5% 0.2%; /* 5% a dalt i a baix, 20% als costats */
+    background-color: #ffff00; /* Fons groc */
+    font-family: 'Times New Roman', Times, serif; /* Aplica Times New Roman a tota la pàgina */
+}
+
+/* Restableix el fons en blanc per al contingut de la pàgina */
+.container {
+    background-color: #f0f0f0; /* Fons gris clar */
+}
+
+.banner {
+    background-color: #656462; /* Fons gris fosc per al banner */
+    text-align: center; /* Centra el text dins del banner */
+    padding: 5px 0; /* Espai vertical de 5px */
+}
+
+.banner img {
+    max-width: 100%; /* Assegura que la imatge no excedeixi l'amplada del contenidor */
+    height: auto; /* Manté la proporció de la imatge */
+}
+
+nav {
+    text-align: center; /* Centra el contingut del menú de navegació */
+    background-color: #656462; /* Fons gris fosc per al nav */
+}
+
+nav ul li {
+    display: inline; /* Mostra els elements de la llista en línia */
+}
+
+nav ul li a {
+    color: #f8ac00; /* Color de text taronja per als enllaços */
+    text-decoration: none; /* Sense subratllat per defecte en els enllaços */
+    padding: 10px 25px; /* Espai interior de 10px vertical i 25px horitzontal */
+    display: inline-block; /* Permet l'ús de padding i margin */
+}
+
+.main-container {
+    background-color: #f0f0f0; /* Fons d'exemple, canvia-ho si vols */
+    padding: 20px; /* Espai interior de 20px */
+}
+
+article {
+    margin: 20px auto; /* Margen de 20px a la part superior i inferior, centrat horitzontalment */
+    padding: 20px; /* Espai interior de 20px */
+    background-color: #fff; /* Fons blanc per als articles */
+}
+
+h1 {
+    color: #1f6485; /* Color blau per als encapçalaments h1 */
+}
+
+p {
+    line-height: 1.6; /* Altura de línia per al text en paràgrafs */
+    color: black; /* Color del text en negre */
+}
+
+.main-image {
+    max-width: 100%; /* Assegura que la imatge no excedeixi l'amplada del contenidor */
+    height: auto; /* Manté la proporció de la imatge */
+    display: block; /* Mostra la imatge com un bloc */
+    margin: 0 auto; /* Centra la imatge horitzontalment */
+}
+
+.footer-section a {
+    color: orange; /* Color de la lletra groga */
+    text-decoration: none; /* Sense subratllat per defecte en els enllaços del footer */
+}
+
+.footer-section a:hover {
+    color: black; /* Color de la lletra negre quan el cursor està a sobre */
+    text-decoration: underline; /* Subratllat quan el cursor està a sobre */
+}
+
+.info-container {
+    display: flex; /* Utilitza flexbox per al contenidor d'informació */
+    justify-content: flex-start; /* Alinea elements al principi del contenidor */
+    align-items: center; /* Centre verticalment els elements dins del contenidor */
+}
+
+.logos {
+    display: inline-flex; /* Mostra els logotips en línia amb flexbox */
+    gap: 10px; /* Espai entre els logotips */
+    margin-left: 10px; /* Espai entre els logotips i el text */
+}
+
+.logo {
+    height: 22px; /* Ajusta l'altura dels logotips segons sigui necessari */
+    width: auto; /* Manté la proporció d'amplada */
+}
+
+/* Contenidor principal */
+.container {
+    max-width: 1200px; /* Amplada màxima de 1200px per al contenidor */
+    margin: 0 auto; /* Centra el contenidor horitzontalment */
+    padding: 20px; /* Espai interior de 20px */
+}
+
+/* Estil general del footer */
+.footer {
+    background-color: #6A0DAD; /* Color morat per al footer */
+    padding: 20px 0; /* Espai vertical de 20px */
+    text-align: center; /* Centra el contingut del footer */
+    font-family: Arial, sans-serif; /* Fonts Arial per al footer */
+    width: 100%; /* Amplada total del footer */
+}
+
+/* Estil per a totes les imatges al footer */
+.footer-content img {
+    width: 150px; /* Mida estàndard per a les imatges del footer */
+    margin: 0 10px; /* Margen horitzontal de 10px per a les imatges */
+    vertical-align: middle; /* Alineació vertical mitjana per a les imatges */
+}
+
+/* Estil especial per a la primera imatge */
+.footer-content .big-image img {
+    width: 300px; /* Mida més gran per a la primera imatge */
+}
+
+/* Efecte hover en totes les imatges */
+.footer-content a img:hover {
+    opacity: 0.8; /* Efecte d'opacitat al passar el cursor */
+}
+
+.img_personatges {
+    display: block;
+    width: 100px;
+    height: 150px;
+    margin: 10px auto;
+}
+.link_personatges {
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    flex-direction: column; /* Asegura que los elementos se alineen en columna */
+    align-items: center; /* Centrar verticalmente (si es necesario) */
+    width: 93.5%; /* Asegurarse de que el contenedor ocupe todo el ancho */
+}
+
+.link_personatges a {
+    background-color: gray;
+    color: orange; /* Color de la lletra groga */
+    padding: 0px 32px; /* Aumentar el padding a los lados (izquierda y derecha) */
+    text-decoration: none; /* Sense subratllat per defecte en els enllaços del footer */
+}
+
+.link_personatges a:hover {
+    color: white; /* Color de la lletra negre quan el cursor està a sobre */
+    text-decoration: underline; /* Subratllat quan el cursor està a sobre */
+}
+
+.arc-list-container {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;/* Alinear los elementos al inicio verticalmente */
+    
+}
+
+.arc-list {
+    flex: 1; /* Hacer que el div de la lista ocupe el espacio necesario */
+    padding: 20px; /* Espacio interior del div */
+}
+
+.arc-image-container {
+    flex: 1; /* Hacer que el div de la imagen ocupe el espacio necesario */
+    display: flex; /* Usar flexbox para centrar la imagen */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    padding: 20px; /* Espacio interior del div */
+}
+
+.arc-image {
+    max-width: 130%; /* Ajustar la imagen al ancho del div */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-left: -280px; /* Mover la imagen 20px hacia la izquierda */
+}
+
+.saga-title {
+    color: #289eac; /* Cambiar el color de la letra a cyan */
+}
+
+.custom-list {
+    list-style-type: none; /* Quita el punto predeterminado */
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list > li {
+    padding-left: 30px; /* Espacio para la imagen */
+    background-image: url('../img/icono-cine.png'); /* Cambia esta ruta por la de tu imagen */
+    background-repeat: no-repeat;
+    background-position: 0 5px; /* Ajusta la posición según sea necesario */
+    background-size: 16px 16px; /* Ajusta el tamaño de la imagen */
+}
+
+.custom-list li > ol li {
+    background-image: none; /* Asegura que no haya imagen en los <li> de <ol> */
+    padding-left: 0; /* Restablece el padding */
+    list-style-type: decimal; /* Muestra los números de la lista ordenada */
+}
