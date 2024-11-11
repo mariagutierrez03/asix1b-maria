@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Rooms</title>
+    <link rel="stylesheet" href="./css/estils.css">
+    <!-- Enllaç al full d'estils CSS -->
+</head>
+
+<body>
+    <!-- Capçalera del lloc web -->
+    <header>
+        <div class="logo">
+            <img src="./img/RRLogo.png" alt="Logo">
+            <!-- Imatge del logotip amb text alternatiu -->
+        </div>
+        <nav>
+            <!-- Barra de navegació amb enllaços a diferents seccions de la web -->
+            <a href="index.html">Inicio</a>
+            <a href="precios.html">Precios</a>
+            <a href="reserva.html">Reserva</a>
+        </nav>
+    </header>
+    <hr class="divider">
+    <!-- Línia divisòria horitzontal per separar la capçalera del contingut -->
+
+    <main>
+        <!-- Títol de la secció de taula -->
+        <h1 class="table_h1">Rural Rooms: Características y precios</h1>
+
+        <div class="table-container">
+            <!-- Contenidor de la taula -->
+            <table style="font-family: 'Comic Sans MS', 'Comic Neue', cursive;">
+                <thead>
+                    <tr>
+                        <th>Tipo de Habitación</th>
+                        <th>Personas</th>
+                        <th>Características</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Habitació individual -->
+                    <tr class="linia">
+                        <td><strong>Habitación individual</strong></td>
+                        <td><img src="./img/individual.png" alt="1 persona"></td>
+                        <td class="text">Baño compartido, 20m², Microondas</td>
+                        <td class="text">70 €</td>
+                    </tr>
+
+                    <!-- Habitació doble amb preus diferents -->
+                    <tr>
+                        <td rowspan="2"><strong>Habitación doble (1 o 2 camas)</strong></td>
+                        <td><img src="./img/doble.png" alt="2 personas"></td>
+                        <td rowspan="2" class="text">Baño privado, 30m², Microondas</td>
+                        <td class="text">120 €</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./img/individual.png" alt="2 personas"></td>
+                        <td class="text">90 €</td>
+                    </tr>
+
+                    <!-- Habitació doble superior -->
+                    <tr class="linia">
+                        <td><strong>Habitación doble superior</strong></td>
+                        <td><img src="./img/doble.png" alt="2 personas"></td>
+                        <td class="text">Baño privado, 35m², Zona de cocina, Cama doble</td>
+                        <td class="text">140 €</td>
+                    </tr>
+
+                    <!-- Habitació triple amb preus diferents -->
+                    <tr>
+                        <td rowspan="3"><strong>Habitación triple (1, 2 o 3 camas)</strong></td>
+                        <td><img src="./img/triple.png" alt="3 personas"></td>
+                        <td rowspan="3" class="text">Baño privado, 40m², Zona de cocina</td>
+                        <td class="text">130 €</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./img/doble.png" alt="3 personas"></td>
+                        <td class="text">100 €</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./img/individual.png" alt="3 personas"></td>
+                        <td class="text">100 €</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Característiques comunes a totes les habitacions -->
+            <div class="common-features">
+                Características comunes: WiFi gratis / TV de pantalla plana / Aire acondicionado
+            </div>
+        </div>
+    </main>
+</body>
+
+<!-- Peu de pàgina amb informació sobre l'autor i enllaç a la font de les fotografies -->
+<footer>
+    <p>Actividad realizada por <span>Nombre y apellidos del estudiante</span></p>
+    <br>
+    <p>Fotografías de la portada <a href="https://unsplash.com" target="_blank">Unsplash</a> <img
+            src="./img/creative-commons.png" alt="CC BY Icon"> </p>
+    <!-- Icona Creative Commons per indicar la llicència de les fotografies -->
+</footer>
+
+</html>

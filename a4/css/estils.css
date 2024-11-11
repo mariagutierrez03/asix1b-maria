@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    /* Estableix els marges, padding i el sistema de caixes per defecte per a tots els elements */
+}
+
+body {
+    background-color: #ebedee;
+    /* Defineix el color de fons de la pàgina */
+}
+
+header {
+    background-color: #699D3E;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    justify-content: space-between;
+    /* Estils per a la capçalera amb color de fons, espaiat i aliniació dels elements */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    /* Ajusta l'espai de la secció del logotip dins de la capçalera */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    padding-right: 290px;
+    /* Centra els elements dins del menú de navegació i ajusta l'espai entre ells */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    /* Estil per als enllaços de navegació: color, sense subratllat, mida del text */
+}
+
+.background {
+    background-image: url('../img/fondoindex.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Imatge de fons amb coberta completa, centrada, i no repetida */
+}
+
+.hero {
+    text-align: left;
+    color: #5C9A4D;
+    padding: 140px 105px;
+    /* Estils per a la secció de hero amb aliniació, color i espaiat */
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    /* Títol de la secció hero amb mida i pes de lletra */
+}
+
+.hero p {
+    font-size: 35px;
+    /* Paràgraf de la secció hero amb mida de lletra */
+}
+
+footer {
+    background-color: #699D3E;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 29px 80px;
+    /* Estils per al peu de pàgina: color, aliniació, mida i posició fixa a la part inferior */
+}
+
+footer p {
+    margin: 5px 0;
+    /* Mida del marge per als paràgrafs dins del footer */
+}
+
+footer span {
+    font-weight: bold;
+    /* Text en negreta per a l'span del footer */
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    /* Estil dels enllaços al footer amb subratllat */
+}
+
+.divider {
+    border: none;
+    border-top: 5px solid grey;
+    margin: 0;
+    /* Una línia divisòria amb un top border gris */
+}
+
+/*PÀGINA DE PREUS*/
+main {
+    padding: 20px;
+    text-align: center;
+    /* Contingut principal centrat amb espaiat */
+}
+
+.table_h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: normal;
+    /* Títol per a la taula amb color, mida i sense negreta */
+}
+
+.table-container {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    /* Contenidor de la taula amb ombra, marge i mida màxima */
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    /* Taula amb disseny Comic Sans i bordes arrodonits */
+}
+
+thead th {
+    background-color: #4f6071;
+    color: #fff;
+    padding: 16px;
+    font-size: 1em;
+    font-weight: normal;
+    border-right: 1px solid #fff;
+    font-family: 'Comic Sans MS', sans-serif;
+    /* Encapsulament d'estils per a les capçaleres de taula */
+}
+
+tbody td {
+    padding: 14px;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #fff;
+    /* Estil de les cel·les de taula */
+}
+
+tbody td:first-child {
+    text-align: center;
+    /* Centra la primera cel·la */
+}
+
+tbody td[rowspan] {
+    vertical-align: middle;
+    /* Aliniació vertical per a cel·les fusionades */
+}
+
+tbody td:last-child {
+    text-align: right;
+    border-right: none;
+    /* Alineació de preus a la dreta */
+}
+
+.linia {
+    background-color: #eff3f5;
+    /* Fila amb fons diferent */
+}
+
+.common-features {
+    background-color: #4f6071;
+    color: #fff;
+    padding: 16px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    border-radius: 0 0 12px 12px;
+    font-family: 'Comic Sans MS', sans-serif;
+    /* Secció de característiques comunes per a taules */
+}
+
+/* ICONES PERSONES */
+table img {
+    margin: 0 2px;
+    vertical-align: middle;
+    /* Espaiat per a les icones dins la taula */
+}
+
+.text {
+    font-size: 13px;
+    color: gray;
+    /* Text addicional dins de taules */
+}
+
+/* PÀGINA FORMULARI */
+.form-container {
+    width: 95%;
+    max-width: 1400px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    /* Contenidor del formulari amb ombra i amplada màxima */
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4B6C1D;
+    font-size: 1.8em;
+    /* Títol del formulari */
+}
+
+.form-fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    /* Secció de formulari amb bordes */
+}
+
+.form-legend {
+    font-weight: bold;
+    color: #4B6C1D;
+    padding: 0 10px;
+    /* Títol per a cada camp de formulari */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    /* Estructura en graella amb columnes automàtiques */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    /* Agrupació vertical per a camps de formulari */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    /* Etiquetes amb text en negreta */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    /* Estils per als camps del formulari */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 6px;
+    /* Àrea de text amb mida mínima ajustable */
+}
+
+.form-note {
+    font-size: 0.9em;
+    color: #666;
+    /* Nota informativa dins del formulari */
+}
+
+.form-button {
+    background-color: #4B6C1D;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    /* Botó d'enviament amb estil interactiu */
+}
+
+.form-button:hover {
+    background-color: #7BA32D;
+    /* Canvi de color en passar-hi el cursor */
+}
+
+.form_h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: normal;
+    margin: 20px 219px;
+    text-align: left;
+    /* Títol gran dins el formulari */
+}

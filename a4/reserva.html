@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Rooms</title>
+    <link rel="stylesheet" href="./css/estils.css">
+    <!-- Enllaç a l'arxiu de fulls d'estil CSS -->
+</head>
+
+<body>
+    <!-- Capçalera del lloc web -->
+    <header>
+        <div class="logo">
+            <img src="./img/RRLogo.png" alt="Logo">
+            <!-- Imatge del logotip amb text alternatiu -->
+        </div>
+        <nav>
+            <!-- Barra de navegació amb enllaços -->
+            <a href="index.html">Inicio</a>
+            <a href="precios.html">Precios</a>
+            <a href="reserva.html">Reserva</a>
+        </nav>
+    </header>
+    <hr class="divider">
+    <!-- Línia divisòria horitzontal -->
+
+    <h1 class="form_h1">Reserve su habitación en Rural Rooms</h1>
+    <!-- Títol principal de la pàgina -->
+
+    <main class="form-container">
+        <!-- Formulari de reserva principal -->
+        <form class="reservation-form" action="#" method="post">
+            <!-- Formulari amb mètode d'enviament POST -->
+
+            <!-- Secció de dades personals -->
+            <fieldset class="form-fieldset">
+                <legend class="form-legend">Dades Personals</legend>
+                <div class="grid-container">
+                    <div class="form-group">
+                        <label for="tractament">Tractament:</label>
+                        <select id="tractament" name="tractament" required>
+                            <option value="">Selecciona</option>
+                            <option value="Sr">Sr</option>
+                            <option value="Sra">Sra</option>
+                            <option value="Srta">Srta</option>
+                        </select>
+                        <!-- Camps de selecció pel tractament -->
+                    </div>
+                    <div class="form-group">
+                        <label for="nom">Nom:</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cognoms">Cognoms:</label>
+                        <input type="text" id="cognoms" name="cognoms" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefon">Telèfon:</label>
+                        <input type="tel" id="telefon" name="telefon" required pattern="[0-9]{9}">
+                        <!-- Input per a telèfon amb patró de 9 dígits -->
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correu electrònic:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-email">Confirma el correu electrònic:</label>
+                        <input type="email" id="confirm-email" name="confirm-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contrasenya">Contrasenya:</label>
+                        <input type="password" id="contrasenya" name="contrasenya" required>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Secció de dades de la reserva -->
+            <fieldset class="form-fieldset">
+                <legend class="form-legend">Dades de la Reserva</legend>
+                <div class="grid-container">
+                    <div class="form-group">
+                        <label for="tipus-habitacio">Tipus d'habitació:</label>
+                        <select id="tipus-habitacio" name="tipus-habitacio" required>
+                            <option value="">Selecciona</option>
+                            <option value="individual">Habitació individual</option>
+                            <option value="doble">Habitació doble</option>
+                            <option value="doble-superior">Habitació doble superior</option>
+                            <option value="triple">Habitació triple</option>
+                        </select>
+                        <!-- Opcions per al tipus d'habitació -->
+                    </div>
+                    <div class="form-group">
+                        <label for="num-persones">Número de persones:</label>
+                        <input type="number" id="num-persones" name="num-persones" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="data-entrada">Data d'entrada:</label>
+                        <input type="date" id="data-entrada" name="data-entrada" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="data-sortida">Data de sortida:</label>
+                        <input type="date" id="data-sortida" name="data-sortida" required>
+                    </div>
+                </div>
+                <label for="peticions">Peticions especials:</label>
+                <textarea id="peticions" name="peticions" placeholder="Exemple: Cama supletòria..."></textarea>
+                <!-- Text àrea per peticions especials -->
+                <p class="form-note">Nota: Les peticions especials no es poden garantir, però farem tot el possible per
+                    satisfer-les.</p>
+                <!-- Nota informativa sobre les peticions especials -->
+            </fieldset>
+
+            <!-- Secció de dades addicionals -->
+            <fieldset class="form-fieldset">
+                <legend class="form-legend">Dades Addicionals</legend>
+                <div class="grid-container">
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="parking" value="si">
+                            Reserva de plaça de parking cobert (8€/nit)
+                        </label>
+                        <p class="form-note">L'hotel disposa de parking exterior gratuït.</p>
+                        <!-- Opció per reservar aparcament cobert -->
+                    </div>
+                    <div class="form-group">
+                        <label for="hora-arribada">Hora prevista d'arribada:</label>
+                        <input type="time" id="hora-arribada" name="hora-arribada">
+                        <!-- Camps per indicar l'hora prevista d'arribada -->
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="esmorzar" value="si">
+                            Afegeix esmorzar per als dies d'estància (5€/dia)
+                        </label>
+                        <!-- Opció per afegir esmorzar -->
+                    </div>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="form-button">Enviar Reserva</button>
+            <!-- Botó per enviar el formulari -->
+        </form>
+    </main>
+</body>
+
+<!-- Peu de pàgina amb informació addicional -->
+<footer>
+    <p>Actividad realizada por <span>Nombre y apellidos del estudiante</span></p>
+    <br>
+    <p>Fotografías de la portada <a href="https://unsplash.com" target="_blank">Unsplash</a> <img
+            src="./img/creative-commons.png" alt="CC BY Icon"> </p>
+    <!-- Enllaç a Unsplash amb un icona de Creative Commons -->
+</footer>
+
+</html>
