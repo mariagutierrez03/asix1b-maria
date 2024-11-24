@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Estableix els marges, padding i el sistema de caixes per defecte per a tots els elements */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #ebedee;
+    /* Defineix el color de fons de la pàgina */
+}
+
+header {
+    background-color: #262729;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #02d7f7;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    /* Estils per a la capçalera amb color de fons, espaiat i aliniació dels elements */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    /* Ajusta l'espai de la secció del logotip dins de la capçalera */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    padding-right: 290px;
+    font-family: 'Poppins', sans-serif;
+    /* Centra els elements dins del menú de navegació i ajusta l'espai entre ells */
+}
+
+nav a {
+    color: #02d7f7;
+    text-decoration: none;
+    font-size: 25px;
+    /* Estil per als enllaços de navegació: color, sense subratllat, mida del text */
+}
+
+.background {
+    background-image: url('../img/IA-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Imatge de fons amb coberta completa, centrada, i no repetida */
+}
+
+.hero {
+    text-align: left;
+    color: #02d7f7;
+    padding: 140px 105px;
+    font-family: 'Poppins', sans-serif;
+    /* Estils per a la secció de hero amb aliniació, color i espaiat */
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    /* Títol de la secció hero amb mida i pes de lletra */
+}
+
+.hero p {
+    font-size: 35px;
+    /* Paràgraf de la secció hero amb mida de lletra */
+}
+
+/* estils.css */
+footer {
+    background-color: #262729;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    position: static; /* Cambiado de fixed a static */
+    width: 100%;
+    padding: 29px 80px;
+    font-family: 'Open Sans', sans-serif;
+    /* Estils per al peu de pàgina: color, aliniació, mida i posició fixa a la part inferior */
+}
+
+footer p {
+    margin: 5px 0;
+    /* Mida del marge per als paràgrafs dins del footer */
+    color: #02d7f7
+}
+
+footer span {
+    font-weight: bold;
+    /* Text en negreta per a l'span del footer */
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    /* Estil dels enllaços al footer amb subratllat */
+}
+
+.divider {
+    border: none;
+    border-top: 5px solid grey;
+    margin: 0;
+    /* Una línia divisòria amb un top border gris */
+}
+
+/*PÀGINA DE PREUS*/
+main {
+    padding: 20px;
+    text-align: center;
+    /* Contingut principal centrat amb espaiat */
+}
+
+/* PÀGINA FORMULARI */
+/* Formulari per canviar contrasenya */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* GALERIA D'IMATGES */
+
+#imatgeGran {
+    display: none; /* Ocultem la imatge inicialment */
+    width: 1000px; /* Ajustem la mida de la imatge gran */
+    border: 2px solid #333;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.btn:hover {
+    background-color: #e14e2d;
+
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1200px;
+
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+.intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.benefits ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.benefits ul li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+

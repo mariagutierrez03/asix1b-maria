@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Rooms</title>
+    <link rel="stylesheet" href="./css/estils.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <!-- Enllaç al full d'estils CSS -->
+    <script>
+        // Funció per canviar la imatge gran i mostrar-la
+        function canviarImatge(element) {
+            const imatgeGran = document.getElementById('imatgeGran');
+            imatgeGran.src = element.src; // Canvia la ruta a la de la imatge clicada
+            imatgeGran.style.display = 'block'; // Fa visible la imatge gran
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Capçalera del lloc web -->
+    <header>
+        <div class="logo">
+            <img src="./img/logoai.jpg" alt="Logo" width="100 px" height="100 px">
+            <!-- Imatge del logotip amb text alternatiu -->
+        </div>
+        <nav>
+            <!-- Barra de navegació amb enllaços a diferents seccions de la web -->
+            <a href="index.html">Inici</a>
+            <a href="pagina1.html">Informació</a>
+            <a href="pagina2.html">Més</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cursos" class="intro" onmouseover="canviarEstils('cursos')" onmouseout="restaurarEstils('cursos')">
+            <h2>Què són els nostres cursos d'Intel·ligència Artificial?</h2>
+            <br>
+            <p>Els nostres cursos estan dissenyats per introduir-te als conceptes clau de la intel·ligència artificial (IA), oferint una formació completa que et permetrà dominar les tècniques més actuals i poderoses de l'àrea. A través de sessions teòriques i pràctiques, aprenderàs des dels fonaments de la IA fins a tècniques avançades que et permetran treballar amb eines de machine learning, deep learning i processament de dades, amb especial èmfasi en el Machine Learning, Deep Learning i el Processament del Llenguatge Natural (NLP).</p>
+            <br>
+            <p>Durant els cursos, començaràs amb una introducció als conceptes bàsics de la IA, com la creació d'algoritmes d'aprenentatge automàtic, la gestió de conjunts de dades i la comprensió de models estadístics. A mesura que avancis, passaràs a dominar tècniques més avançades, com l'entrenament de xarxes neuronals profundes (deep learning), la creació d'aplicacions d'IA que utilitzen grans volums de dades (big data), i el processament automàtic del llenguatge natural (NLP), que és fonamental per treballar amb dades textuals i aplicar IA en sistemes de veu, traducció automàtica i més.</p>
+            <br>
+            <p id="textOcultCursos" style="display: none;">Els nostres cursos són impartits per professionals i experts amb una àmplia experiència en el camp de la IA, amb un enfocament personalitzat i pràctic que s'adapta a les necessitats del mercat laboral actual. Els instructors no només són acadèmics, sinó també professionals que treballen actualment en empreses tecnològiques líders, aportant coneixements i casos pràctics que et prepararan per afrontar els reptes del món real. A més, els estudiants tindran accés a recursos exclusius, com ara materials didàctics actualitzats, bases de dades d'ús real per als projectes, i eines avançades que els permetran desenvolupar solucions d'IA en diversos sectors. Amb aquesta formació, podràs afrontar projectes reals que impliquin la creació de models predictius, la implementació de sistemes d'automatització intel·ligent i l'anàlisi d'enormes volums de dades per obtenir informació valuosa per a les empreses.
+
+            </p>
+        </section>
+        
+        <section id="avantatges" class="benefits" onmouseover="canviarEstils('avantatges')" onmouseout="restaurarEstils('avantatges')">
+            <h2>Avantatges d'aprendre Intel·ligència Artificial amb nosaltres</h2>
+            <br>
+            <ul>
+                <li>Formació actualitzada: Estem al dia amb les últimes tendències i tècniques d'IA, per garantir-te una formació de qualitat.</li>
+                <li>Accés a projectes reals: Treballaràs amb dades reals per desenvolupar models d'IA i solucions pràctiques.</li>
+                <li>Experts de la indústria: Aprèn dels millors professionals amb anys d'experiència en la indústria de l'IA.</li>
+                <li>Flexibilitat horària: Els nostres cursos s'adapten a la teva agenda, oferint sessions en línia i presencials.</li>
+                <li>Certificació professional: Al final del curs, obtindràs un certificat reconegut per l'industria que acreditarà les teves habilitats.</li>
+            </ul>
+            <br>
+            <p id="textOcultAvantatges" style="display: none;">Inscriu-te ja! T'oferim el millor suport per assolir els teus objectius professionals.</p>
+        </section>
+
+        <h1>Galeria d'Imatges</h1>
+        <div>
+            <div>
+                <img src="img/historia-ia-746x419.jpg" onclick="canviarImatge(this)" alt="Imatge 1 petita" height="150 px" width="250px">
+                <img src="img/ia.jpg" onclick="canviarImatge(this)" alt="Imatge 2 petita" height="150 px" width="250px">
+                <img src="img/ia-comercial.jpg" onclick="canviarImatge(this)" alt="Imatge 3 petita" height="150 px" width="250px">
+                <img src="img/robot-ia.jpg" onclick="canviarImatge(this)" alt="Imatge 1 petita" height="150 px" width="250px">
+                <img src="img/ai2.jpg" onclick="canviarImatge(this)" alt="Imatge 2 petita" height="150 px" width="250px">
+                <img src="img/ia1.jpg" onclick="canviarImatge(this)" alt="Imatge 3 petita" height="150 px" width="250px">
+            </div>
+            <img id="imatgeGran" alt="Imatge gran">
+        </div>
+
+    </main>
+
+    <script src="./components/javascript.js"></script>
+</body>
+
+<!-- Peu de pàgina amb informació sobre l'autor i enllaç a la font de les fotografies -->
+<footer>
+    <p>Actividad realizada por <span>Maria Gutierrez Amposta</span></p>
+    <br>
+    <p>Fotografías de la portada <a href="https://unsplash.com" target="_blank">Unsplash</a> <img
+            src="./img/creative-commons.png" alt="CC BY Icon"> </p>
+    <!-- Icona Creative Commons per indicar la llicència de les fotografies -->
+</footer>
+
+</html>

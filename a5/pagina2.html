@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Rooms</title>
+    <link rel="stylesheet" href="./css/estils.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <!-- Enllaç a l'arxiu de fulls d'estil CSS -->
+</head>
+
+<body>
+    <!-- Capçalera del lloc web -->
+    <header>
+        <div class="logo">
+            <img src="./img/logoai.jpg" alt="Logo" width="100 px" height="100 px">
+            <!-- Imatge del logotip amb text alternatiu -->
+        </div>
+        <nav>
+            <!-- Barra de navegació amb enllaços -->
+            <a href="index.html">Inici</a>
+            <a href="pagina1.html">Informació</a>
+            <a href="pagina2.html">Més</a>
+        </nav>
+    </header>
+    <!-- Títol principal de la pàgina -->
+
+    <main>
+        <h1>Cursos d'intel·ligència artificial!</h1>
+
+        <!-- Rellotge de temps -->
+        <div id="rellotge">
+            <p>Temps a la pàgina: <span id="temps"></span> segons.</p>
+        </div>
+
+        <section>
+            <h2>Informació important</h2>
+            <p>Aquesta pàgina és per mostrar el temps que passes en ella. El rellotge comptarà fins a la propera recàrrega.</p>
+        </section>
+
+        <!-- Formulari per canviar contrasenya -->
+        <section>
+            <h2>Canvia la teva contrasenya</h2>
+            <form id="formContrassenya" onsubmit="return validarContrasenya()">
+                <label for="contrasenya1">Nova contrasenya:</label>
+                <input type="password" id="contrasenya1" name="contrasenya1" required minlength="8" placeholder="Mínim 8 caràcters">
+                <br><br>
+                <label for="contrasenya2">Repeteix la contrasenya:</label>
+                <input type="password" id="contrasenya2" name="contrasenya2" required minlength="8" placeholder="Mínim 8 caràcters">
+                <br><br>
+                <button type="submit">Canviar contrasenya</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        // Funció per iniciar el rellotge
+        let tempsInici = Date.now(); // Guardem el temps actual en mil·lisegons
+
+        function actualitzarTemps() {
+            let tempsActual = Date.now(); // Temps actual
+            let tempsTranscorregut = Math.floor((tempsActual - tempsInici) / 1000); // Convertim el temps a segons
+            document.getElementById('temps').textContent = tempsTranscorregut; // Actualitzem el rellotge a la pàgina
+        }
+
+        // Actualitzem el temps cada segon
+        setInterval(actualitzarTemps, 1000);
+
+        // Validar les contrasenyes en el formulari
+        function validarContrasenya() {
+            var contrasenya1 = document.getElementById('contrasenya1').value;
+            var contrasenya2 = document.getElementById('contrasenya2').value;
+
+            // Comprovem que les dues contrasenyes siguin iguals
+            if (contrasenya1 !== contrasenya2) {
+                alert("Les contrasenyes no coincideixen. Si us plau, torna a introduir-les.");
+                return false; // No enviem el formulari
+            }
+
+            // Comprovem que la contrasenya tingui almenys 8 caràcters
+            if (contrasenya1.length < 8) {
+                alert("La contrasenya ha de tenir almenys 8 caràcters.");
+                return false; // No enviem el formulari
+            }
+
+            // Si tot està correcte, mostrem un missatge de confirmació
+            alert("S'ha canviat correctament la contrasenya.");
+            return true; // Enviem el formulari
+        }
+    </script>
+</body>
+
+<!-- Peu de pàgina amb informació addicional -->
+<footer>
+    <p>Actividad realizada por <span>Maria Gutierrez Amposta</span></p>
+    <br>
+    <p>Fotografías de la portada <a href="https://unsplash.com" target="_blank">Unsplash</a> <img
+            src="./img/creative-commons.png" alt="CC BY Icon"> </p>
+    <!-- Enllaç a Unsplash amb un icona de Creative Commons -->
+</footer>
+
+</html>
