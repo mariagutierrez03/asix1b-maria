@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pressupostos>
+    <pressupost numero="1" moneda="EUR">
+        <component>
+            <nom>Placa Base</nom>
+            <descripcio>ASUS PRIME B660M-K D4</descripcio>
+            <preu>120.50</preu>
+        </component>
+        <component>
+            <nom>Processador</nom>
+            <descripcio>Intel Core i5-12400F</descripcio>
+            <preu>180.00</preu>
+        </component>
+        <component>
+            <nom>Memòria RAM</nom>
+            <descripcio>Kingston Fury Beast 8GB DDR4-3200 (x2)</descripcio>
+            <preu>70.00</preu>
+        </component>
+        <component>
+            <nom>Disc Dur</nom>
+            <descripcio>Samsung 970 EVO Plus 1TB NVMe</descripcio>
+            <preu>95.00</preu>
+        </component>
+        <component>
+            <nom>Targeta Gràfica</nom>
+            <descripcio>Gigabyte GeForce RTX 3060</descripcio>
+            <preu>350.00</preu>
+        </component>
+        <component>
+            <nom>Targeta de So</nom>
+            <descripcio>Creative Sound Blaster Audigy FX</descripcio>
+            <preu>45.00</preu>
+        </component>
+        <total>860.50</total>
+    </pressupost>
+    <pressupost numero="2" moneda="EUR">
+        <component>
+            <nom>Placa Base</nom>
+            <descripcio>MSI PRO B550M-VC WIFI</descripcio>
+            <preu>135.00</preu>
+        </component>
+        <component>
+            <nom>Processador</nom>
+            <descripcio>AMD Ryzen 5 5600G</descripcio>
+            <preu>160.00</preu>
+        </component>
+        <component>
+            <nom>Memòria RAM</nom>
+            <descripcio>Corsair Vengeance LPX 8GB DDR4-3200 (x2)</descripcio>
+            <preu>65.00</preu>
+        </component>
+        <component>
+            <nom>Disc Dur</nom>
+            <descripcio>Crucial MX500 1TB SSD</descripcio>
+            <preu>80.00</preu>
+        </component>
+        <component>
+            <nom>Targeta Gràfica</nom>
+            <descripcio>ASUS Dual Radeon RX 6600</descripcio>
+            <preu>320.00</preu>
+        </component>
+        <component>
+            <nom>Targeta de So</nom>
+            <descripcio>Asus Xonar SE</descripcio>
+            <preu>40.00</preu>
+        </component>
+        <total>800.00</total>
+    </pressupost>
+</pressupostos>
