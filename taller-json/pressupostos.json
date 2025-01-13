@@ -1,0 +1,79 @@
+{
+    "pressupostos": [
+      {
+        "numero": "1",
+        "moneda": "EUR",
+        "components": [
+          {
+            "nom": "Placa Base",
+            "descripcio": "ASUS PRIME B660M-K D4",
+            "preu": 120.50
+          },
+          {
+            "nom": "Processador",
+            "descripcio": "Intel Core i5-12400F",
+            "preu": 180.00
+          },
+          {
+            "nom": "Memòria RAM",
+            "descripcio": "Kingston Fury Beast 8GB DDR4-3200 (x2)",
+            "preu": 70.00
+          },
+          {
+            "nom": "Disc Dur",
+            "descripcio": "Samsung 970 EVO Plus 1TB NVMe",
+            "preu": 95.00
+          },
+          {
+            "nom": "Targeta Gràfica",
+            "descripcio": "Gigabyte GeForce RTX 3060",
+            "preu": 350.00
+          },
+          {
+            "nom": "Targeta de So",
+            "descripcio": "Creative Sound Blaster Audigy FX",
+            "preu": 45.00
+          }
+        ],
+        "total": 860.50
+      },
+      {
+        "numero": "2",
+        "moneda": "EUR",
+        "components": [
+          {
+            "nom": "Placa Base",
+            "descripcio": "MSI PRO B550M-VC WIFI",
+            "preu": 135.00
+          },
+          {
+            "nom": "Processador",
+            "descripcio": "AMD Ryzen 5 5600G",
+            "preu": 160.00
+          },
+          {
+            "nom": "Memòria RAM",
+            "descripcio": "Corsair Vengeance LPX 8GB DDR4-3200 (x2)",
+            "preu": 65.00
+          },
+          {
+            "nom": "Disc Dur",
+            "descripcio": "Crucial MX500 1TB SSD",
+            "preu": 80.00
+          },
+          {
+            "nom": "Targeta Gràfica",
+            "descripcio": "ASUS Dual Radeon RX 6600",
+            "preu": 320.00
+          },
+          {
+            "nom": "Targeta de So",
+            "descripcio": "Asus Xonar SE",
+            "preu": 40.00
+          }
+        ],
+        "total": 800.00
+      }
+    ]
+  }
+  

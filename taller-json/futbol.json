@@ -1,0 +1,275 @@
+{
+    "resultatsFutbol": {
+      "jornada": [
+        {
+          "numero": "1",
+          "LigaBBVA": {
+            "partit": [
+              {
+                "equipLocal": "R. Sociedad",
+                "golsLocal": "2",
+                "equipVisitant": "Getafe",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Valencia",
+                "golsLocal": "1",
+                "equipVisitant": "Malaga",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Osasuna",
+                "golsLocal": "1",
+                "equipVisitant": "Granada",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Sevilla",
+                "golsLocal": "1",
+                "equipVisitant": "R. Madrid",
+                "golsVisitant": "3"
+              },
+              {
+                "equipLocal": "Celta",
+                "golsLocal": "2",
+                "equipVisitant": "Espanyol",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Valladolid",
+                "golsLocal": "1",
+                "equipVisitant": "Athletic",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "FC Barcelona",
+                "golsLocal": "7",
+                "equipVisitant": "Levante",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "R. Madrid",
+                "golsLocal": "2",
+                "equipVisitant": "Betis",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Rayo",
+                "golsLocal": "3",
+                "equipVisitant": "Elche",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Almeria",
+                "golsLocal": "2",
+                "equipVisitant": "Villarreal",
+                "golsVisitant": "3"
+              }
+            ]
+          }
+        },
+        {
+          "numero": "2",
+          "LigaBBVA": {
+            "partit": [
+              {
+                "equipLocal": "Getafe",
+                "golsLocal": "2",
+                "equipVisitant": "Almeria",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Elche",
+                "golsLocal": "1",
+                "equipVisitant": "R. Sociedad",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Villarreal",
+                "golsLocal": "2",
+                "equipVisitant": "Valladolid",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Malaga",
+                "golsLocal": "0",
+                "equipVisitant": "FC Barcelona",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Betis",
+                "golsLocal": "1",
+                "equipVisitant": "Celta",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Athletic",
+                "golsLocal": "2",
+                "equipVisitant": "Osasuna",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Espanyol",
+                "golsLocal": "3",
+                "equipVisitant": "Valencia",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Atletico",
+                "golsLocal": "5",
+                "equipVisitant": "Rayo",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Levante",
+                "golsLocal": "0",
+                "equipVisitant": "Sevilla",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Granada",
+                "golsLocal": "0",
+                "equipVisitant": "R. Madrid",
+                "golsVisitant": "1"
+              }
+            ]
+          }
+        },
+        {
+          "numero": "3",
+          "LigaBBVA": {
+            "partit": [
+              {
+                "equipLocal": "Rayo",
+                "golsLocal": "1",
+                "equipVisitant": "Levante",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Celta",
+                "golsLocal": "1",
+                "equipVisitant": "Granada",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Osasuna",
+                "golsLocal": "0",
+                "equipVisitant": "Villareal",
+                "golsVisitant": "3"
+              },
+              {
+                "equipLocal": "Espanyol",
+                "golsLocal": "0",
+                "equipVisitant": "Betis",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Valencia",
+                "golsLocal": "2",
+                "equipVisitant": "FC Barcelona",
+                "golsVisitant": "3"
+              },
+              {
+                "equipLocal": "Almeria",
+                "golsLocal": "2",
+                "equipVisitant": "Elche",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Valladolid",
+                "golsLocal": "1",
+                "equipVisitant": "Getafe",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "R. Madrid",
+                "golsLocal": "3",
+                "equipVisitant": "Athletic",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "R. Sociedad",
+                "golsLocal": "1",
+                "equipVisitant": "Atletico",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Sevilla",
+                "golsLocal": "2",
+                "equipVisitant": "Malaga",
+                "golsVisitant": "2"
+              }
+            ]
+          }
+        },
+        {
+          "numero": "4",
+          "LigaBBVA": {
+            "partit": [
+              {
+                "equipLocal": "Atletico",
+                "golsLocal": "4",
+                "equipVisitant": "Almeria",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "FC Barcelona",
+                "golsLocal": "3",
+                "equipVisitant": "Sevilla",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Granada",
+                "golsLocal": "0",
+                "equipVisitant": "Espanyol",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Malaga",
+                "golsLocal": "5",
+                "equipVisitant": "Rayo",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Elche",
+                "golsLocal": "0",
+                "equipVisitant": "Valladolid",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Levante",
+                "golsLocal": "0",
+                "equipVisitant": "R. Sociedad",
+                "golsVisitant": "0"
+              },
+              {
+                "equipLocal": "Villareal",
+                "golsLocal": "2",
+                "equipVisitant": "R. Madrid",
+                "golsVisitant": "2"
+              },
+              {
+                "equipLocal": "Getafe",
+                "golsLocal": "2",
+                "equipVisitant": "Osasuna",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Betis",
+                "golsLocal": "3",
+                "equipVisitant": "Valencia",
+                "golsVisitant": "1"
+              },
+              {
+                "equipLocal": "Athletic",
+                "golsLocal": "3",
+                "equipVisitant": "Celta",
+                "golsVisitant": "2"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  
