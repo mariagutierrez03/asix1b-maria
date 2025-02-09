@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="eleccions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="descripcio" type="xs:string"/>
+                <xs:element name="dades">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="data" type="xs:date"/>
+                            <xs:element name="alumnes" type="xs:integer"/>
+                            <xs:element name="abstencio" type="xs:integer"/>
+                            <xs:element name="blancs" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="resultats">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="candidat" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <xs:element name="vots" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

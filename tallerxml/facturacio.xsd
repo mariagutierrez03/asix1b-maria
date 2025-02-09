@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="facturacio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="empresa">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="raosocial">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <xs:element name="adreca" type="xs:string"/>
+                                        <xs:element name="codipostal" type="xs:string"/>
+                                        <xs:element name="poblacio" type="xs:string"/>
+                                        <xs:element name="CIF" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="tipus" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="factura" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="raosocial">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nom" type="xs:string"/>
+                                                    <xs:element name="cognom" type="xs:string" minOccurs="0" maxOccurs="2"/>
+                                                    <xs:element name="adreca" type="xs:string"/>
+                                                    <xs:element name="codipostal" type="xs:string"/>
+                                                    <xs:element name="poblacio" type="xs:string"/>
+                                                    <xs:choice>
+                                                        <xs:element name="DNI" type="xs:string"/>
+                                                        <xs:element name="NIF" type="xs:string"/>
+                                                    </xs:choice>
+                                                    <xs:element name="domiciliat" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="tipus" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="linies">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="producte" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="descripcio" type="xs:string"/>
+                                                    <xs:element name="quantitat" type="xs:integer"/>
+                                                    <xs:element name="preuunitari" type="xs:decimal"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="codi" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="data" type="xs:string"/>
+                            <xs:element name="subtotal" type="xs:decimal"/>
+                            <xs:element name="iva" type="xs:integer"/>
+                            <xs:element name="total" type="xs:decimal"/>
+                            <xs:element name="rebuts" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="rebut" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="data" type="xs:string"/>
+                                                    <xs:element name="totalrebut" type="xs:decimal"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="numero" type="xs:integer" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="numero" type="xs:integer" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

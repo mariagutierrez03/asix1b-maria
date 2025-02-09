@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="inscripcio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="equip" type="xs:string"/>
+        <xs:element name="jugadors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jugador" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nom" type="xs:string"/>
+                    <xs:element name="any" type="xs:integer"/>
+                    <xs:element name="rols">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="rol" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

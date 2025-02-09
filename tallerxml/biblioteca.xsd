@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="editorial" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="raosocial" type="xs:string"/>
+                            <xs:element name="adreca">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="carrer" type="xs:string"/>
+                                        <xs:element name="numero" type="xs:string"/>
+                                        <xs:element name="codipostal" type="xs:string"/>
+                                        <xs:element name="poblacio" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="telefon" type="xs:string" minOccurs="0"/>
+                            <xs:element name="contacte" type="xs:string" minOccurs="0"/>
+                            <xs:element name="llibre" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titol" type="xs:string"/>
+                                        <xs:element name="publicacio" type="xs:string"/>
+                                        <xs:element name="autor">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nom" type="xs:string"/>
+                                                    <xs:element name="cognom" type="xs:string" maxOccurs="unbounded"/>
+                                                    <xs:element name="adreca">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="carrer" type="xs:string"/>
+                                                                <xs:element name="numero" type="xs:string"/>
+                                                                <xs:element name="pis" type="xs:string" minOccurs="0"/>
+                                                                <xs:element name="codipostal" type="xs:string"/>
+                                                                <xs:element name="poblacio" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="premis" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="premi" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="argument" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
