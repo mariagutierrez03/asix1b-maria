@@ -1,0 +1,32 @@
+* {
+    font-family: "Times New Roman", serif;
+}
+
+notes {
+    display: block;
+    background-color: cyan;
+    padding: 20px;
+}
+
+assignatura {
+    display: block;
+    color: green;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+alumne {
+    display: block;
+    font-size: 18px;
+    color: black;
+}
+
+nom {
+    color: red;
+}
+
+nota {
+    font-weight: bold;
+    font-size: 15px;
+
+}
