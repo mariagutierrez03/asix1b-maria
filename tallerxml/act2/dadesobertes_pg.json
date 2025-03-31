@@ -1,13 +1,46 @@
-{
-    "previsio": {
-        "titol": "Dades Previsió Meteorològica",
-        "descripcio": "Previsió del dia:",
-        "detalls": {
-            "estatDelCel": "El cel estarà cobert en general. Tot i això, estarà entre mig i molt ennuvolat al nord de la Vall d’Aran al llarg del dia, i a partir de la tarda també a punts de Ponent.",
-            "precipitacions": "S’espera precipitació d’intensitat feble al quadrant nord-oest...",
-            "temperatures": "La temperatura màxima serà semblant al Pirineu occidental...",
-            "visibilitat": "La visibilitat serà regular o dolenta en general...",
-            "vent": "Bufarà el vent de component est entre fluix i moderat..."
+[
+    {
+        "diaPredit": "20250331Z",
+        "versio": "1",
+        "mati": {},
+        "tarda": {},
+        "tendencies": [{}],
+        "simbols": {},
+        "estatDelCel": [],
+        "estatDelMar": [],
+        "vent": [],
+        "variables": {
+            "estatDelCel": "Cel serè o poc ennuvolat en general. Malgrat tot, es podria formar algun núvol baix al litoral central i al sud de la Costa Brava, així com al final del dia a punts del delta de l'Ebre.",
+            "precipitacions": "No s'espera precipitació.",
+            "temperatures": "La temperatura màxima pujarà entre lleugerament i moderadament en general, sobretot a l'interior i en especial a punts del Pirineu, on l'ascens serà notable.",
+            "visibilitat": "La visibilitat serà excel·lent.",
+            "vent": "A les Terres de l'Ebre bufarà mestral fluix amb cops moderats, tot i que hi haurà algun cop fort al litoral sud fins a migdia."
+        }
+    },
+    {
+        "diaPredit": "20250401Z",
+        "versio": "1",
+        "mati": {},
+        "tarda": {},
+        "variables": {
+            "estatDelCel": "Fins a migdia predominarà el cel serè a tot el territori, a excepció de punts de l'extrem sud del litoral on estarà mig o localment molt ennuvolat per núvols baixos.",
+            "precipitacions": "A partir de migdia s'iniciaran algunes febles precipitacions a l'interior del quadrant nord-est.",
+            "temperatures": "La temperatura mínima serà similar. La temperatura màxima, en canvi, baixarà entre moderadament i notablement al prelitoral i al quadrant nord-est.",
+            "visibilitat": "Fins a migdia, la visibilitat serà excel·lent, tret de punts del delta de l'Ebre on serà regular.",
+            "vent": "A l'inici del dia el vent serà fluix i de direcció variable amb predomini del terral al litoral."
+        }
+    },
+    {
+        "diaPredit": "20250402Z",
+        "versio": "1",
+        "mati": {},
+        "tarda": {},
+        "variables": {
+            "estatDelCel": "El cel estarà molt ennuvolat o cobert arreu, amb més clarianes a l'extrem nord-est.",
+            "precipitacions": "S'espera precipitació a qualsevol punt del territori, menys probable a l'extrem nord-est.",
+            "temperatures": "La temperatura mínima serà similar en general, mentre que al terç sud augmentarà lleugerament.",
+            "visibilitat": "La visibilitat serà entre bona i regular, localment dolenta al litoral i al prelitoral.",
+            "vent": "Predominarà el vent de component est arreu."
         }
     }
-}
+]

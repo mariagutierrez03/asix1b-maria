@@ -1,0 +1,98 @@
+{
+	"dades": {
+		"municipi": [
+			{
+				"codi": "431554",
+				"nom": "Tortosa",
+				"homes_de_0_a_14_anys": "2594",
+				"homes_de_15_a_64_anys": "11033",
+				"homes_de_65_anys_i_m_s": "2967",
+				"dones_de_0_a_14_anys": "2494",
+				"dones_de_15_a_64_anys": "10407",
+				"dones_de_65_anys_i_m_s": "3944",
+				"total_de_0_a_14_anys": "5088",
+				"total_de_15_a_64_anys": "21440",
+				"total_de_65_anys_i_m_s": "6911"
+			},
+			{
+				"codi": "430141",
+				"nom": "Amposta",
+				"homes_de_0_a_14_anys": "1833",
+				"homes_de_15_a_64_anys": "7026",
+				"homes_de_65_anys_i_m_s": "1816",
+				"dones_de_0_a_14_anys": "1602",
+				"dones_de_15_a_64_anys": "6671",
+				"dones_de_65_anys_i_m_s": "2167",
+				"total_de_0_a_14_anys": "3435",
+				"total_de_15_a_64_anys": "13697",
+				"total_de_65_anys_i_m_s": "3983"
+			},
+			{
+				"codi": "439018",
+				"nom": "Deltebre",
+				"homes_de_0_a_14_anys": "828",
+				"homes_de_15_a_64_anys": "3864",
+				"homes_de_65_anys_i_m_s": "1157",
+				"dones_de_0_a_14_anys": "770",
+				"dones_de_15_a_64_anys": "3550",
+				"dones_de_65_anys_i_m_s": "1409",
+				"total_de_0_a_14_anys": "1598",
+				"total_de_15_a_64_anys": "7414",
+				"total_de_65_anys_i_m_s": "2566"
+			},
+			{
+				"codi": "431362",
+				"nom": "La Ràpita",
+				"homes_de_0_a_14_anys": "997",
+				"homes_de_15_a_64_anys": "4803",
+				"homes_de_65_anys_i_m_s": "1516",
+				"dones_de_0_a_14_anys": "961",
+				"dones_de_15_a_64_anys": "4814",
+				"dones_de_65_anys_i_m_s": "1862",
+				"total_de_0_a_14_anys": "1958",
+				"total_de_15_a_64_anys": "9617",
+				"total_de_65_anys_i_m_s": "3378"
+			},
+			{
+				"codi": "430043",
+				"nom": "Alcanar",
+				"homes_de_0_a_14_anys": "665",
+				"homes_de_15_a_64_anys": "3176",
+				"homes_de_65_anys_i_m_s": "941",
+				"dones_de_0_a_14_anys": "642",
+				"dones_de_15_a_64_anys": "2933",
+				"dones_de_65_anys_i_m_s": "1077",
+				"total_de_0_a_14_anys": "1307",
+				"total_de_15_a_64_anys": "6109",
+				"total_de_65_anys_i_m_s": "2018"
+			},
+			{
+				"codi": "430136",
+				"nom": "Ametlla de Mar",
+				"homes_de_0_a_14_anys": "485",
+				"homes_de_15_a_64_anys": "2206",
+				"homes_de_65_anys_i_m_s": "801",
+				"dones_de_0_a_14_anys": "440",
+				"dones_de_15_a_64_anys": "2066",
+				"dones_de_65_anys_i_m_s": "868",
+				"total_de_0_a_14_anys": "925",
+				"total_de_15_a_64_anys": "4272",
+				"total_de_65_anys_i_m_s": "1669"
+			},
+			{
+				"codi": "431331",
+				"nom": "Roquetes",
+				"homes_de_0_a_14_anys": "665",
+				"homes_de_15_a_64_anys": "2849",
+				"homes_de_65_anys_i_m_s": "656",
+				"dones_de_0_a_14_anys": "621",
+				"dones_de_15_a_64_anys": "2498",
+				"dones_de_65_anys_i_m_s": "790",
+				"total_de_0_a_14_anys": "1286",
+				"total_de_15_a_64_anys": "5347",
+				"total_de_65_anys_i_m_s": "1446"
+			}
+		],
+		"_any": "2020"
+	}
+}

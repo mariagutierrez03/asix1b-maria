@@ -4,34 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previsió Meteorològica</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dadesobertes_pg.css">
 </head>
 <body>
-    <h1 id="titol">Carregant...</h1>
-    <h2 id="descripcio"></h2>
+    <h1>Previsió Meteorològica</h1>
+    <label for="diaSelect">Selecciona un dia:</label>
+    <select id="diaSelect"></select>
     <div id="output">Carregant dades...</div>
-
-    <script>
-        fetch("meteo.json")
-            .then(response => response.json())
-            .then(data => {
-                // Accedim a la informació dins de "previsio" i "detalls"
-                document.getElementById("titol").textContent = data.previsio.titol;
-                document.getElementById("descripcio").textContent = data.previsio.descripcio;
-                
-                const detalls = data.previsio.detalls;
-                let html = "";
-
-                for (let clau in detalls) {
-                    html += `<p><strong>${clau.replace(/([A-Z])/g, ' $1').trim()}:</strong> ${detalls[clau]}</p>`;
-                }
-
-                document.getElementById("output").innerHTML = html;
-            })
-            .catch(error => {
-                document.getElementById("output").innerHTML = "Error al carregar les dades.";
-                console.error("Error carregant JSON:", error);
-            });
-    </script>
+    <script src="dadesobertes_pg.js" defer></script>
 </body>
 </html>
+
